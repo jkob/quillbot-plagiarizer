@@ -9,7 +9,11 @@ const rl = readline.createInterface({
 
 rl.question(`${green("Please paste what text you'd like to plagiarize:")} \n`, async (text) => {
 	try {
-		// Your first mistake is expecting habitually broke individuals to be able to reciprocate.
+		/*
+			Could use any request stdlib/package to fetch the response directly from the API (`https://quillbot.com/api/`)
+
+		*/
+
 
 		const inputSelector = "textarea.input-text"
 		const sliderSelector = ".strength-slider"
